@@ -1,0 +1,118 @@
+
+.info-parent{
+    /* background-color: brown;
+    border: 2px solid black;  */
+    height: 70%;
+    width: 50%;
+    margin: auto 8%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.con-info{
+    /* background-color: blueviolet; */
+    width: 20%;
+    padding: 10px;
+    border-bottom: 2px solid  rgba(223, 166, 43, 0.8);
+}
+
+.font{
+    font-size: 30px;
+    padding: 0;
+}
+
+.con-main{
+    /* background-color: red; */
+    padding: 0;
+    margin: 0;
+    width: 70%;
+}
+
+.con-link{
+    /* background-color: cornflowerblue; */
+    /* width: 23%;
+    text-align: center; */
+    /* width: fit-content; */
+    /* padding: 12px; */
+    /* border-radius: 20px; */
+    /* border: 2px solid white; */
+}
+
+.con-link input {
+    color: white;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 2px solid white;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+/* .fill-butt{
+    color: white;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 2px solid white;
+    padding: 10px;
+    border-radius: 20px;
+} */
+
+/* ________________________________________________________________________________ */
+/* ________________________________________________________________________________ */
+
+
+.border2{
+    border: 2px solid white;
+    width: 80%;
+}
+
+.social{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.soc-kid{
+    width: 40px;
+    height: 40px;
+    margin: 0 5px;
+}
+
+.div_logo i{
+    font-size: 100px;
+    color: white;
+}
+
+.soc-kid i{
+    font-size: 30px;
+}
+
+.white-text{
+    color: white;
+    font-style: italic;
+}
+
+.tevas{
+    perspective: 1000px;
+}
+
+.vaikas{
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+.tevas:hover .vaikas {
+    transform: rotateY(-180deg);
+}
+
+.vaikasfw, .vaikasbw{
+    backface-visibility: hidden;
+  }
+
+.vaikasfw{
+
+}
+
+.vaikasbw{
+    transform: rotateY(180deg);
+}

@@ -1,0 +1,100 @@
+.table-section{
+    background-color: var(--black-theme);
+    padding: 50px 5%;
+    text-align: center;
+    color: white;
+}
+
+
+.table-info h3{
+    color: grey;
+    font-size: 20px;
+
+}
+
+.table-info h2{
+    font-size: 30px;
+
+}
+
+.table-div{
+    overflow-x: auto;
+
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+
+    display: flex;
+}
+
+
+table, th, td {
+    border: 1px solid rgb(53, 53, 53);
+    border-collapse: collapse;
+}
+
+th, td{
+    padding: 15px 20px;
+
+}
+
+th{
+    background-color: var(--orange);
+    border:1px solid black;
+}
+
+
+.table-y th{
+    padding: 30px 10px 50px 10px;
+}
+
+.table-y span{
+    display: inline-block;
+    width: 30px;
+}
+
+.table-y td{
+    text-align: start;
+}
+
+.table-y strong{
+    font-size: 18px;
+}
+.table-y p{
+    margin: 0;
+    font-size: 16px;
+    color: darkgray;
+}
+
+@media screen and (min-width:768px){
+
+    .table-div {
+        justify-content: center;
+        margin-bottom: 80px;
+    }
+
+    .table-y th{
+        padding: 20px 30px;
+    }
+
+    .table-x th:not(:first-child){
+        padding: 20px 30px;
+    }
+
+}
+
+@media screen and (min-width:990px){
+
+    .table-x th:not(:first-child){
+        padding: 20px 50px;
+    }
+
+}
+
+@media screen and (min-width:1200px){
+
+    .table-x th:not(:first-child){
+        padding: 20px 60px;
+    }
+
+}

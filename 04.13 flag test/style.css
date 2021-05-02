@@ -1,0 +1,73 @@
+table {
+    width: 100%;
+}
+
+.flag div {
+    padding: 25px;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.green {
+    background-color: green;
+}
+
+.red {
+    background-color: red;
+}
+
+.white {
+    background-color: white;
+}
+
+.blue {
+    background-color: darkblue;
+}
+
+.black {
+    background-color: black;
+}
+
+th, td {
+    padding: 5px;
+    width: 25%;
+}
+
+.header-bg {
+    background-color: mediumseagreen;
+}
+
+th {
+    text-align: left;
+}
+
+table, td, th {
+    border-collapse: collapse;
+    border: 2px dotted black;
+}
+
+.ho:hover {
+    transform: scale(1.4);
+    transition: 0.3s;
+
+    background-color: mediumseagreen;
+}
+
+.links {
+    text-align: center;
+}
+
+/* .ho:last-child {
+    text-align: left;
+} */
+
+.flag:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+tr:last-child td:hover {
+    background-color: mediumturquoise;
+}

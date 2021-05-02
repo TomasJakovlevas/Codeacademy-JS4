@@ -1,0 +1,147 @@
+
+/* mobile */
+
+
+nav{
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    background-color: var(--black-theme);
+
+    display: flex;
+    justify-content: center;
+
+    font-size: 24px;
+
+    z-index: 1;
+}
+
+.nav-logo{
+    color: white;
+    font-weight: bold;
+    /* border: 2px solid white; */
+    height: 100%;
+    width: 449px;
+
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-left: 30px;
+}
+
+.nav-dropdown{
+    color: white;
+    /* border: 2px solid white; */
+    height: 100%;
+    width: 449px;
+
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding-right: 30px;
+}
+
+.dropdown-content{
+
+    position: absolute;
+    top: 80px;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    color: white;
+    background-color: var(--black-theme);
+    font-size: 16px;
+
+    display: flex;
+    justify-content: center;
+
+    display: none;
+
+
+    /* z-index: 1; */
+}
+
+.nav-dropdown:hover .dropdown-content{
+    display: block;
+}
+
+.dropdown-content ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 20px 0 ;
+
+}
+
+.dropdown-content li{
+    padding: 5px 0;
+}
+
+.dropdown-content a:link{
+    text-decoration: none;
+    color: white;
+}
+
+.dropdown-content a:visited{
+    color: white;
+}
+
+.dropdown-content a:hover{
+    color: var(--orange);
+    transition: none;
+}
+
+.dropdown-content i{
+    font-size: 18px;
+}
+
+/* tablet */
+@media screen and (min-width:900px) {
+
+    .nav{
+        width: 900px;
+    }
+
+}
+
+/* desktop */
+@media screen and (min-width:990px) {
+
+    /* .nav-dropdown i{
+        display: none;
+    } */
+
+    .dropdown-content{
+        display: block;
+        top: 0;
+        left: -30%;
+        position: relative;
+    }
+
+    .dropdown-content ul{
+        display: flex;
+        flex-wrap: wrap;
+        width: 700px;
+
+    }
+
+    .dropdown-content li{
+        margin: 0 20px;
+    }
+
+    .nav-logo{
+        width: 350px;
+        margin-left: 5%;
+        /* left: 20px; */
+        /* padding: 0 30px; */
+        /* justify-content: flex-start; */
+    }
+
+    nav{
+        justify-content: space-between;
+    }
+
+    .nav-dropdown{
+        margin-right: 120px;
+    }
+
+}

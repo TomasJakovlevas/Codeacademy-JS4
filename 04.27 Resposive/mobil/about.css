@@ -1,0 +1,102 @@
+
+/* default */
+
+.about{
+    height: 50vh;
+    background-color: purple;
+    padding: 20px;
+}
+
+/* mobile */
+
+@media screen and (min-width:320px) {
+
+    .about{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .about--inner-div{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .about--image{
+        background-color: sandybrown;
+        /* height: 20vh; */
+
+        height: 100%;
+        width: 100%;
+        border: 10px solid red;
+    }
+
+    .about--text{
+        background-color: greenyellow;
+        text-align: center;
+        width: 100%;
+
+        margin: 40px 0;
+        padding: 8px;
+        font-size: 22px;
+    }
+
+    .about--button{
+        background-color: white;
+        /* max-width: 769px;
+
+        min-width: 320px; */
+        width: 100%;
+        max-width: 350px; 
+
+        padding: 10px;
+        text-align: center;
+        border-radius: 20px;
+    }
+}
+
+/* tablet */
+
+/* desktop */
+
+@media screen and (min-width:1024px) {
+
+    .about{
+        display: flex;
+        flex-wrap: wrap-reverse;
+        /* height: 30vh; */
+    }
+
+    .about--image{
+        width: 49%;
+        /* margin: 50px; */
+        /* margin-left: 10px; */
+
+    }
+
+    .about--inner-div{
+        height: 100%;
+        width: 49%;
+        /* margin: 50px; */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    .about--text{
+        margin: 0;
+        font-size: 30px;
+    }
+
+    .about--button{
+        margin-bottom: 100px;     
+        padding: 20px;   
+    }
+
+}
+

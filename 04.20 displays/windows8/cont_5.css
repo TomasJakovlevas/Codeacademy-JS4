@@ -1,0 +1,105 @@
+
+.container-hover{
+    height: 350px;
+
+}
+
+.container-hover--div{
+    width: 25%;
+    height: 350px;
+    /* background-color: blueviolet; */
+
+    /* perspective: 1000px; */
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+    color: white;
+
+}
+
+.container-kid{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+    /* background-color: green; */
+}
+
+.container-hover--div:hover .container-kid {
+    transform: rotateY(-180deg);
+    backface-visibility: hidden;
+}
+
+.front-display{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    width: 100%;
+    height: 100%;
+
+}
+
+.front-display, .back-display{
+    backface-visibility: hidden;
+}
+
+
+.back-display{
+    transform: rotateY(180deg);
+    width: 100%;
+    height: 100%;
+
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    width: 100%;
+    height: 100%;
+    
+    padding: 20px;
+
+}
+
+.bg-coly{
+    background-color: rgba(209, 160, 0, 0.9);
+}
+
+.bg-colo{
+    background-color: rgba(206, 134, 0, 0.9);
+}
+
+.bg-colp{
+    background-color: rgba(83, 0, 83, 0.9);
+}
+
+.bg-colr{
+    background-color: rgba(172, 67, 35, 0.9);
+}
+
+.front-logo i{
+    font-size: 100px;
+    margin: 20px;
+}
+
+/* .lay-5 .front-view .bw{
+    display: none;
+}
+
+.front-view:hover .bw{
+    display: block;
+}
+
+.front-view:hover .fw{
+    display: none;
+}  */
+

@@ -1,0 +1,25 @@
+.real-about{
+    background-color: indianred;
+    padding: 20px 10px;
+}
+
+.whoWeAre{
+    background-color: white;
+    margin: 10px;
+}
+
+
+
+
+.real-about-image{
+    width: 100%;
+    height: 30vh;
+    background-color: greenyellow;
+}
+
+@media screen and (min-width:320px) {
+
+    
+
+}
+

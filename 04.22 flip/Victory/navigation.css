@@ -1,0 +1,31 @@
+
+.navigation{
+    background-color: white;
+    height: 25vh;
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.navigation--title{
+    width: 80%;
+    /* background-color: burlywood; */
+    text-align: center;
+    border-bottom: 1px solid var(--darkgrey);
+}
+
+.nav--menu li{
+    display: inline;
+    margin: 0 40px;
+}
+
+.nav--menu li a:link {
+    color: var(--darkgrey);
+}
+
+.nav--menu li a:visited {
+    color: var(--darkgrey);
+}

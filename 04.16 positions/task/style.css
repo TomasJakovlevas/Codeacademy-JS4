@@ -1,0 +1,61 @@
+
+.container {
+    width: 600px;
+    margin: 0 auto;
+}
+
+.ball {
+    position: fixed;
+    bottom: 50px;
+    left: 50px;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    background-color: red;
+}
+
+.ball p{
+    position: absolute;
+    margin: 0;
+    color: black;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.head{
+    background-color: blue;
+    color: white;
+    width: 30%;
+    line-height: 2;
+    margin: 0 auto;
+    text-align: center;
+    /* position: -webkit-sticky; */
+    position:sticky;
+     top:0;
+     border-radius: 10px;
+}
+
+.head1 {
+    top: 50px;
+}
+
+.head2{
+    top: 100px;
+}
+
+.head3{
+    top: 150px;
+}
+
+.head4{
+    top: 200px;
+}
+
+.head5{
+    top: 250px;
+}
+
+article {
+    margin-top: 50px;
+}

@@ -1,0 +1,138 @@
+
+.about{
+    padding: 50px 5%;
+    background: linear-gradient(white, rgb(238, 238, 238));}
+
+.about--container-text h2{
+    font-size: 30px;
+    font-style: bolder;
+}
+
+.about--container-text p {
+    color: dimgray;
+    font-size: 18px;
+    padding: 0;
+}
+
+
+.instructors{
+    width: 100%;
+    max-width: 400px;
+    margin: 50px auto;
+    box-shadow: 0px 2px 3px 3px lightgrey;
+}
+
+.instructors-img{
+    width: 100%;
+    max-width: 400px;
+    height: 330px;
+    margin: 0 auto;
+}
+
+.trainer1{
+    background-image: url("https://images.unsplash.com/photo-1446941303752-a64bb1048d54?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80");
+    background-position: center;
+    background-size: cover;
+}
+
+.trainer2{
+
+    background-image: url("https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80");
+    background-position: center;
+    background-size: cover;
+
+}
+
+.instructors-info{
+    position: relative;
+    background-color: white;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.instructors-info h2{
+    margin-top: 0;
+}
+
+.instructors-social{
+    position: absolute;
+    right: 12px;
+    bottom: 0;
+}
+
+.instructors-social i{
+    font-size: 24px;
+    padding: 5px 0;
+}
+
+.instructors-social ul li a:visited{
+    color: black;
+}
+
+.instructors-social ul li a:link{
+    color: black;
+}
+
+@media screen and (min-width:768px) {
+
+    .about--container-instructors{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .instructors{
+        width: 330px;
+        margin: 0 20px;
+    }
+
+    .instructors-img{
+        width: 100%;
+    }
+
+    .about--container-text{
+        padding: 10px 0;
+        max-width: 570px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width:990px) {
+
+    .about--container{
+        display: flex;
+        justify-content: center;
+        max-width: 1140px;
+        margin: 0 auto;
+    }
+
+    .instructors{
+        width: 225px;
+    }
+
+    .instructors-img{
+        height: 225px;
+    }
+
+    .instructors-info{
+        height: 100px;
+    }
+
+    .about--container-text h2{
+        font-size: 30px;
+    }
+    
+    .about--container-text p {
+        font-size: 22px;
+    }
+
+    .instructors-info h2{
+        font-size: 20px;
+    }
+
+    .instructors-info span{
+        font-size: 18px;
+    }
+
+}
+

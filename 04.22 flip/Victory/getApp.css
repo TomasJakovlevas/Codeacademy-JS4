@@ -1,0 +1,14 @@
+
+.getApp{
+    height: 30vh;
+    background-color: var(--tomato);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.getApp h2{
+    color: white;
+}
+

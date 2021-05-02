@@ -1,0 +1,64 @@
+.container {
+    height: 500px;
+    text-align: center;
+    border: 1px solid green;
+    object-fit: cover;
+
+}
+
+.photo {
+    width: 30%;
+    height: 100%;
+
+    display: inline-block;
+    object-fit: cover;
+
+}
+
+img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+body {
+    text-align: center;
+}
+
+.box {
+    margin: 10px auto;
+    padding: 10px;
+    box-sizing: border-box;
+    height: 200px;
+    width: 200px;
+    margin-top: 10px;
+    background-color: grey;
+    border: 3px solid black;
+
+}
+
+.box-div {
+    background-color: cadetblue;
+    vertical-align:middle;
+}
+
+.child {
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    background-color:darkkhaki;
+    display: inline-block;
+    
+}
+
+/* .box-div div{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    background-color:cyan;
+    display: inline-block;
+} */
+
+.border-box {
+    box-sizing: border-box;
+}

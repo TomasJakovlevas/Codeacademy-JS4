@@ -1,0 +1,30 @@
+
+footer{
+    height: 15vh;
+    background-color: rgb(49, 42, 97);
+    color: white;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+    text-align: center;
+
+}
+
+.footer-social{
+    display: flex;
+    justify-content: center;
+    width: 33%;
+}
+
+footer span{
+    font-size: 12px;
+    width: 33%;
+}
+
+.social-logo{
+    margin: 0 20px;
+    font-size: 22px;
+}

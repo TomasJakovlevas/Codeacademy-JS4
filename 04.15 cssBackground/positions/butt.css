@@ -1,0 +1,25 @@
+.btn-1, .btn-2{
+    margin: 0 10px;
+    padding: 10px 10px;
+    border-radius: 2px;
+    color: white;
+    border: 1px solid black;
+}
+
+.btn-1 {
+    background: linear-gradient(#ffc342, #977c02);
+}
+
+.btn-1.ho:active {
+    background: linear-gradient(#977c02, #ffc342);
+
+}
+
+.btn-2 {
+    background: linear-gradient(#d1d1d1, #333333);
+
+}
+
+.btn-2.ho:active{
+    background: linear-gradient(#333333, #d1d1d1);
+}

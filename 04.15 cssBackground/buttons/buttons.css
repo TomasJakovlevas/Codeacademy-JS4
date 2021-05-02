@@ -1,0 +1,49 @@
+body {
+}
+
+.btn {
+    display: inline-block;
+    width: 100px;
+    background-color: cornflowerblue;
+    background: linear-gradient(#e66465, #9198e5);
+    border-radius: 8px;
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    box-shadow: 0 2px 4px rgb(0, 0, 0);
+}
+
+.btn:hover {
+    scale: 1.2;
+}
+
+.btn--small {
+    padding: 0;
+}
+
+.btn--large {
+    padding: 20px ;
+}
+
+.btn--blue{
+    background: linear-gradient(#3441cc, #e2bafc);
+}
+
+.btn--red{
+    background: linear-gradient(#f50404, #f6adf8);
+}
+
+.btn--blue:hover{
+    background: linear-gradient(#f50404, #f6adf8);
+
+}
+
+.btn--red:hover {
+    background: linear-gradient(
+    #004ab9,
+    #0048b3,
+    #0046ad,
+    #0044a7,
+    #0042a1);
+}

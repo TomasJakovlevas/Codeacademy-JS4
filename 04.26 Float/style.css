@@ -1,0 +1,63 @@
+
+.section{
+    display: block;
+    width: calc(300px + 2rem);
+    height: calc(300px + 2rem);
+    margin: 5rem auto;
+    border: 1px solid black;
+}
+
+.rect{
+    background-color: chartreuse;
+}
+
+.rect-square{
+    width: 100px;
+    height: 100px;
+    background-color: chartreuse;
+}
+
+.rect-v{
+    height: calc(200px + 1rem);
+    width: 100px;
+    background-color: blue;
+}
+
+.rect-h{
+    height: 100px;
+    width: calc(200px + 1rem);
+    background-color: red;
+}
+
+
+
+.float-right{
+    float: right;
+}
+
+.float-left{
+    float: left;
+}
+
+.section2{
+    width: calc(400px + 3rem);
+    height: calc(400px + 3rem);
+    border: 1px solid black;
+    margin: 5rem auto;
+    display: block;
+
+}
+
+/* ----------------------- */
+
+.section3{
+    display: flex;
+}
+
+.flex{
+    flex: 1 0 200px;
+    background-color: royalblue;
+    border: 1px solid black;
+    padding: 30px;
+    height: 200px;
+}

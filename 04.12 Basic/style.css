@@ -1,0 +1,14 @@
+body {
+    background-color: rgb(211, 219, 219);
+}
+
+
+table, td, th {
+    border: 1px solid black;
+    text-align: center;
+    padding: 5px;
+  }
+
+  .igudziai {
+    text-align: left;
+  }

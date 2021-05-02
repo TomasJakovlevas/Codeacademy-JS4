@@ -1,0 +1,138 @@
+
+.class-selection{
+    padding: 50px 5%;
+    text-align: center;
+}
+
+.class-selection--div--text h3{
+    color: gray;
+    font-size: 24px;
+    margin-bottom: 0;
+}
+
+.class-selection--div--text h2{
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+
+.class{
+    width: 100%;
+    max-width: 400px;
+    margin: 50px auto;
+    box-shadow: 0px 2px 3px 3px lightgrey;
+    text-align: left;
+}
+
+.class--img{
+    width: 100%;
+    max-width: 400px;
+    height: 330px;
+    margin: 0 auto;
+}
+
+.class--info{
+    position: relative;
+    background-color: white;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.class--info h2{
+    margin-bottom: 5px;
+}
+
+.class--info span{
+    font-size: 18px;
+    font-weight: bold;
+    color: gray;
+}
+
+.class--info p{
+    position: relative;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.class1{
+    background-image: url("https://images.unsplash.com/photo-1600026453256-9fe8ca59d5d2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80");
+    background-position: center;
+    background-size: cover;
+}
+
+.class2{
+    background-image: url("https://images.unsplash.com/photo-1594125812609-97eb771d464a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80");
+    background-position: center;
+    background-size: cover;
+}
+
+.class3{
+    background-image: url("https://images.unsplash.com/photo-1552209841-d2dc5fd68a30?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8c3BvcnR8ZW58MHwyfDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+    background-position: center;
+    background-size: cover;
+}
+
+.info-price{
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    background-color: var(--orange);
+    border-radius: 50%;
+
+    right: 30px;
+    bottom: 100px;
+}
+
+.info-price span{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+@media screen and (min-width:768px) {
+
+    .class-selection--div--classses{
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 720px;
+        margin: 0 auto;
+    }
+
+    .class{
+        max-width: 330px;  
+        margin: 30px auto;
+    }
+
+    .class-img{
+        width: 100%;
+    }
+
+    .class:last-child {
+        margin-left: 2%;
+    }
+
+    @media screen and (min-width:990px) {
+        /* .class:last-child {
+            margin: 0 auto;
+        } */
+
+        .class-selection--div--classses{
+            display: flex;
+            justify-content: center;
+            max-width: 1140px;
+            margin: 0 auto;
+        }
+    
+        .class{
+            width: 30%;
+            max-width: 350px;
+        }
+    
+        .class-img{
+            height: 225px;
+        }
+    }
+
+}

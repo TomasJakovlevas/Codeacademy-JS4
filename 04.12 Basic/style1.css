@@ -1,0 +1,38 @@
+label {
+    margin: 20px;
+    font-size: 20px;
+    padding: 10px;
+    color: blue;
+}
+
+#title {
+    border: 2px solid blue;
+}
+
+#name {
+    background-color: greenyellow;
+}
+.form-label {
+    color: red;
+}
+
+.la {
+    border: 2px dotted green;
+}
+
+.red {
+    padding: 10px;
+    border: 2px solid purple;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.bg-green {
+    background-color: greenyellow;
+}
+
+.yellow, .bg-green {
+    padding: 20px;
+}

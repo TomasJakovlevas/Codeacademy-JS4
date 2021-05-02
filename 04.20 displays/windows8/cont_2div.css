@@ -1,0 +1,62 @@
+
+.cont2_divtext{
+    height: 100%;
+    width: 50%;
+    /* background-color: lightgreen; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cont2_divtext h2{
+    margin: 0 22px;
+}
+
+.cont2_divtext p{
+    margin: 22px;
+}
+
+.cont2_divimg{
+    height: 70%;
+    width: 25%;
+    /* background-color: lightsalmon; */
+    background-image: url(https://images.unsplash.com/photo-1586717791821-3f44a563fa4c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80);
+
+    background-size: cover;
+    background-position: center;
+}
+
+.list-font{
+    color: lightslategray;
+    font-style: italic;
+}
+
+.list-font li{
+    padding: 5px 0;
+}
+
+.list-font li::marker {
+    content: "⚜ ";
+  }
+
+.red-font{
+    color: rgb(87, 120, 211);;
+}
+
+.fill-butt input{
+    color: white;
+    background-color: rgb(87, 120, 211);
+    border: 2px solid rgb(87, 120, 211);
+    padding: 10px;
+    border-radius: 20px;
+    margin: 0 22px;
+}
+ /* unvisited link */
+.text-link:link {
+    color: rgb(87, 120, 211);
+}
+  
+  /* visited link */
+.text-link:visited {
+    color: rgb(87, 120, 211);
+}
